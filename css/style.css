@@ -1,18 +1,21 @@
 img {
   width: 50%;
   border: solid black;
-  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .column {
-  float: left;
+  display: block;
   width: 50%;
   padding: 4x;
-  background-color: lightcoral;
-  margin: 12px;
-  border: dotted black;
+  background-color: rgb(237, 162, 162);
+  margin-left: auto;
+  margin-right: auto;
+  border: dotted rgb(246, 243, 75);
   border-width: 8px;
-
+  text-align: center;
 }
 
 #dogs {
@@ -21,4 +24,15 @@ img {
 
 #cats {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  background-color: aquamarine;
+}
+
+#main-image {
+  float: center;
+  width: 70%;
 }
