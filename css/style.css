@@ -36,3 +36,16 @@ h1 {
   float: center;
   width: 70%;
 }
+
+@media screen and (min-width: 580px) {
+  .column {
+    border: solid red;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: yellow; 
+    color: darkblue;
+  }
+}
